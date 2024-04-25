@@ -1,0 +1,196 @@
+body {
+  font-family: "Montserrat";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 2rem;
+}
+
+#title {
+  background-color: #e48586;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Navigvation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+.navbar-container-fluid {
+  padding: 1% 0%;
+}
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.reading-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#about {
+  padding: 7% 15%;
+  background-color: #fff;
+}
+.about-text {
+  text-align: left;
+  padding: 15% 1% 0;
+}
+#cta {
+  background-color: #e48586;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+.btn {
+  background: #b8b8b8;
+  background-image: -webkit-linear-gradient(top, #b8b8b8, #916db3);
+  background-image: -moz-linear-gradient(top, #b8b8b8, #916db3);
+  background-image: -ms-linear-gradient(top, #b8b8b8, #916db3);
+  background-image: -o-linear-gradient(top, #b8b8b8, #916db3);
+  background-image: linear-gradient(to bottom, #b8b8b8, #916db3);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 35px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 2% 4%;
+}
+
+.btn:hover {
+  background: #b8b8b8;
+  text-decoration: none;
+}
+.cta-buttons {
+  padding: 4% 0%;
+}
+/* Footer Section*/
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+  line-height: 200%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media only screen and (max-width: 280px) {
+  #container {
+    padding: 7% 7%;
+  }
+  #title {
+    text-align: center;
+  }
+  .big-heading {
+    font-size: 0.8rem;
+  }
+  .navbar {
+    padding-bottom: 3rem;
+  }
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+  .nav-link {
+    font-size: 0.8rem;
+  }
+  .reading-img {
+    width: 72px;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .nav-link {
+    padding-bottom: 1rem;
+  }
+
+  .btn {
+    margin: 2%;
+  }
+}
+@media only screen and (max-width: 500px) and (min-width: 281px) {
+  #container {
+    padding: 7% 7%;
+  }
+  #title {
+    text-align: center;
+  }
+  .big-heading {
+    font-size: 1.2rem;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+  .reading-img {
+    width: 101px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 1028px) and (min-width: 501px) {
+  #container {
+    padding: 7% 9%;
+  }
+  #title {
+    text-align: center;
+  }
+  .big-heading {
+    font-size: 2rem;
+  }
+  .navbar-brand {
+    font-size: 2.2rem;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+  .reading-img {
+    width: 200px;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+}
